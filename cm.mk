@@ -7,6 +7,11 @@ PRODUCT_RELEASE_NAME := C5155
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
+# TWRP stuff
+#TARGET_SCREEN_HEIGHT := 480
+#TARGET_SCREEN_WIDTH := 320
+DEVICE_RESOLUTION := 320x480
+
 # Inherit device configuration
 $(call inherit-product, device/kyocera/C5155/device_C5155.mk)
 
