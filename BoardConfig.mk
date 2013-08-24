@@ -27,3 +27,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_PREBUILT_KERNEL := device/kyocera/C5155/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
+
+# For AndroidKernel.mk to chose the right defconfigs
+FILTER_PRODUCT_DEVICE := TARGET_PRODUCT_C5155
