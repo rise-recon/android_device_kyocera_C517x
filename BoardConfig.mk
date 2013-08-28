@@ -32,3 +32,6 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 
 # For AndroidKernel.mk to chose the right defconfigs
 FILTER_PRODUCT_DEVICE := TARGET_PRODUCT_C5155
+
+#TERP STUFF
+DEVICE_RESOLUTION := 320x480
