@@ -23,3 +23,6 @@
 
 # Note userdebug isn't tested.
 add_lunch_combo full_C5155-eng
+add_lunch_combo full_C5155-userdebug
+add_lunch_combo cm_C5155-eng
+add_lunch_combo cm_C5155-userdebug
