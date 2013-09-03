@@ -1,7 +1,7 @@
 #!/bin/sh
 
 VENDOR=kyocera
-DEVICE=C5155
+DEVICE=CC5170
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*
